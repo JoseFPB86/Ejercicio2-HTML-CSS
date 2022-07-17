@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+}
+
+body{    
+    background: linear-gradient(#7702A7, #B819F9);
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    padding:70px; 
+    padding-left: 23%;   
+    padding-right: 23%; 
+}
+
+.div{
+    display: inline-block;
+    width: 350px;  
+   
+    
+}
+
+.number{
+    text-align: center;  
+    display: inline-block;    
+    font-size: 20px;
+    color: white;
+    
+}
+
+.head-card-one{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    background-color:rgb(235, 202, 12);
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 0.3rem;
+    text-transform: uppercase; 
+    
+}
+
+.head-card-two{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    background-color:#0DDCB9;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 0.3rem;
+    text-transform: uppercase;  
+}
+
+.head-card-three{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    background-color:rgb(93, 105, 154);
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 0.3rem;
+    text-transform: uppercase;  
+}
+
+.card{
+    background-color:rgb(20, 20, 59);
+    width: 250px;    
+    text-align: center;
+    border-radius: 0.3rem;
+    color: rgb(126, 126, 126);    
+    
+}
+
+.card > .card-button button{
+    background: transparent;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: capitalize;
+    line-height: 4.5rem;
+}
+
+.git-code button{
+    text-align: center;
+    border-radius: 0.2rem;
+    margin: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    background-color: transparent;
+}
+
+
+
+
+
